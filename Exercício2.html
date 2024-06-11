@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="cat.png" type="image/x-icon">
+    <script src="Exercício2.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de Pressão</title>
+</head>
+<body>
+    <h1>Conversão de Pressão</h1>
+    <label for="valorPressao">Valor da Pressão: </label>
+    <input type="number" id="valorPressao" step="any"><br><br>
+    <label for="unidade">Unidade: </label>
+    <select id="unidade">
+        <option value="mmHg">mmHg</option>
+        <option value="PSI">PSI</option>
+    </select><br><br>
+    <button onclick="converterPressao()">Converter</button>
+    <p id="resultadoPressao"></p>
+</body>
+</html>

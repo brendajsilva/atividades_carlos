@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="cat.png" type="image/x-icon">
+    <script src="Exercício3.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de Temperatura</title>
+</head>
+<body>
+    <h1>Conversão de Temperatura</h1>
+    <label for="valorTemperatura">Valor da Temperatura: </label>
+    <input type="number" id="valorTemperatura" step="any"><br><br>
+    <label for="unidadeTemperatura">Unidade: </label>
+    <select id="unidadeTemperatura">
+        <option value="F">Fahrenheit (°F)</option>
+        <option value="C">Celsius (°C)</option>
+    </select><br><br>
+    <button onclick="converterTemperatura()">Converter</button>
+    <p id="resultadoTemperatura"></p>
+</body>
+</html>

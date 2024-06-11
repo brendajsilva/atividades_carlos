@@ -1,0 +1,57 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, rgb(0, 247, 255), #ff00ea, purple);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Animação fadeIn e slideUp */
+@keyframes fadeInSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilo do título com animação */
+h1 {
+    color: #000000;
+    animation: fadeInSlideUp 2s ease-in-out;
+}
+
+nav a {
+    margin: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(5, 226, 226, 0.822);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: rgba(5, 29, 167, 0.74);
+}
+
+#resultado {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+small {
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
